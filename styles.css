@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#message {
+  margin: 20px;
+  width: 100px;
+  height: 25px;
+}
+
+div {
+  display:flex;
+  flex-direction: row;
+}
+#one {
+  display: inline-flex;
+  width: 50%;
+  height: 25px;
+  border: 1px solid teal;
+}
+
+#two {
+  display: inline-flex;
+  width: 50%;
+  height: 25px;
+  border: 1px solid red;
+}
